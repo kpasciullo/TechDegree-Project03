@@ -13,10 +13,12 @@
         <h1>The Code Review</h1>
     </header>
 
-    <form>
+    
         <h2>Signup for our newsletter</h2>
         <p class="intro-p">Get the latest news on how your code is doing right now in your inbox.</p>
-        <h3 class="contact-info">Contact Information</h3>
+            <form>
+                <fieldset>
+        <legend class="contact-info">Contact Information</legend>
             <label for="name">Full Name</label>
             <input type="text" id="name" name="user-name" placeholder="Required">
             <br>
@@ -91,8 +93,9 @@
             <label for="zip">Zip Code</label>
             <input type="text" id="zip" name="user-zip">
             <br>
-
-    <h3 class="newsletter-info">Newsletter</h3>
+        </fieldset>
+        <fieldset>
+    <legend class="newsletter-info">Newsletter</legend>
     <p>Select the newsletters you would like to receive</p>
         <label for="html-news"><input type="checkbox" id="html-news" name="html-news">
         HTML News</label>
@@ -109,6 +112,7 @@
         <label for="topics">Other topics you'd like to hear about</label>
         <textarea id="topics" name="topics"></textarea>
         <button type="button">Sign Up</button>
+    </fieldset>
     </form>
 
     <footer>

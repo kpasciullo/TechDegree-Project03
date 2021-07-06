@@ -6,9 +6,9 @@
     padding: 0;
     text-align: left;
   }
-
   h2,
-  h3 {
+  h3,
+  legend {
     color: rgb(39, 55, 65);
     padding: 10px;
   }
@@ -16,7 +16,6 @@
   h2 {
     text-align: center;
   }
-
 header {
     text-align: center;
     text-transform: uppercase;
@@ -57,11 +56,11 @@ h1 {
     padding: 10px;
 }
 
-form > label {
+fieldset > label {
     display: block;
 }
 
-form > input, select {
+fieldset > input, select {
     width: 95%;
     padding: 15px;
     margin-left: 10px;
@@ -126,4 +125,12 @@ form > input, select {
     padding: 30px;
     padding-bottom: 200px;
     text-align: center;
+ }
+
+ fieldset {
+     border: none;
+ }
+
+ legend {
+     width: 99%;
  }
