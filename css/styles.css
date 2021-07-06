@@ -8,7 +8,7 @@
   }
   h2,
   h3,
-  legend {
+  legend  {
     color: rgb(39, 55, 65);
     padding: 10px;
   }
@@ -135,6 +135,12 @@ fieldset > input, select {
      width: 99%;
  }
 
+ .contact-info, .newsletter-info {
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+     color: rgb(39, 55, 65);
+ }
+
  @media only screen and (min-width: 768px) {
 
     form {
@@ -145,6 +151,18 @@ fieldset > input, select {
     button, textarea {
         width: 100%;
         margin-left: 0px;
+    }
+
+    fieldset > label {
+        display: inline-block;
+        width: 19%;
+        text-align: left;
+    }
+    
+    fieldset > input, select {
+        width: 75%;
+        padding: 10px;
+        margin-bottom: 10px;;
     }
 
  }
