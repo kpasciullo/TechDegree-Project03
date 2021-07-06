@@ -32,9 +32,14 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
  p {
-    text-align: center;
     color: rgb(139, 161, 175);
+    padding: 10px;
+ }
+
+ .intro-p {
+    text-align: center;
  }
 
  .contact-info::before {
@@ -69,3 +74,56 @@ form > input, select {
 ::placeholder {
     text-align: right;
 }
+
+#zip {
+    width: 50%;
+}
+
+.newsletter-info::before {
+    content: "";
+    display: inline-block;
+    width: 99%;
+    border-top: solid 2px rgb(39, 55, 65);
+    height: 4px;
+    margin: 20px auto 20px;
+ }
+
+ input[type="checkbox"], input[type="radio"] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    margin-right: 5px;
+ }
+
+ textarea {
+    width: 95%;
+    height: 100px;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: rgb(222, 225, 228);
+    color: rgb(39, 55, 65);
+    border: solid 1px rgb(222, 225, 228);
+    border-radius: 5px;
+    margin-bottom: 30px;
+ }
+
+ button {
+    display:block;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgb(78, 168, 164);
+    border: solid 1px transparent;
+    border-radius: 5px;
+    font-size: 1.5em;
+ }
+
+ footer {
+    font-style: italic;
+    color: rgb(139, 161, 175);
+    padding: 30px;
+    padding-bottom: 200px;
+    text-align: center;
+ }

@@ -15,7 +15,7 @@
 
     <form>
         <h2>Signup for our newsletter</h2>
-        <p>Get the latest news on how your code is doing right now in your inbox.</p>
+        <p class="intro-p">Get the latest news on how your code is doing right now in your inbox.</p>
         <h3 class="contact-info">Contact Information</h3>
             <label for="name">Full Name</label>
             <input type="text" id="name" name="user-name" placeholder="Required">
@@ -92,20 +92,22 @@
             <input type="text" id="zip" name="user-zip">
             <br>
 
-    <h3>Newsletter</h3>
+    <h3 class="newsletter-info">Newsletter</h3>
     <p>Select the newsletters you would like to receive</p>
-        <input type="checkbox" id="html-news" name="html-news">
-        <label for="html-news">HTML News</label>
-        <br>
+        <label for="html-news"><input type="checkbox" id="html-news" name="html-news">
+        HTML News</label>
+        <label for="css-news">
         <input type="checkbox" id="css-news" name="css-news">
-        <label for="css-news">CSS News</label>
-        <br>
-        <input type="checkbox" id="java-news" name="java-news">
-        <label for="java-news">Javascript News</label>
-        <br>
+        CSS News</label>
+        <label for="java-news"><input type="checkbox" id="java-news" name="java-news">
+        Javascript News</label>
+        <p>Newsletter format</p>
+        <label for="html-format"><input type="radio" id="html" name="format">
+        HTML</label>
+        <label for="plain-format"><input type="radio" id="plain-text" name="format">
+        Plain text</label>
         <label for="topics">Other topics you'd like to hear about</label>
-        <text area id="topics" name="topics"></text>
-        <br>
+        <textarea id="topics" name="topics"></textarea>
         <button type="button">Sign Up</button>
     </form>
 
