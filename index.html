@@ -20,10 +20,10 @@
                 <fieldset>
         <legend class="contact-info">Contact Information</legend>
             <label for="name">Full Name</label>
-            <input type="text" id="name" name="user-name" placeholder="Required">
+            <input type="text" id="name" name="user-name" placeholder="Required" required>
             <br>
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="user-email" placeholder="Required">
+            <input type="email" id="email" name="user-email" placeholder="Required" required>
             <br>
             <label for="phone">Phone Number</label>
             <input type="tel" id="phone" name="user-phone">
@@ -32,7 +32,7 @@
             <input type="text" id="address" name="user-address">
             <br>
             <label for="city">City</label>
-            <input type="text" id="city" name="user-city">
+            <input type="text" id="city" name="user-city" placeholder="Please enter the city you live in">
             <br>
             <label for="state">State</label>
             <select name="state" id="state">
@@ -94,7 +94,7 @@
             <input type="text" id="zip" name="user-zip">
             <br>
         </fieldset>
-        <fieldset>
+        <fieldset class="second-section">
     <legend class="newsletter-info">Newsletter</legend>
     <p>Select the newsletters you would like to receive</p>
         <label for="html-news"><input type="checkbox" id="html-news" name="news-type">
@@ -111,26 +111,13 @@
         Plain text</label>
         <label for="topics">Other topics you'd like to hear about</label>
         <textarea id="topics" name="topics"></textarea>
-        <button type="button">Sign Up</button>
+        <button type="submit">Sign Up</button>
     </fieldset>
     </form>
 
     <footer>
         <span id="copyright">Copyright The Code Review</span>
     </footer>
-   
-        
-        
-
-            
-
-            
-
-            
-
-
-
-    </form>
 
 </body>
 </html>

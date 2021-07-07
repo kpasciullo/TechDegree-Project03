@@ -1,7 +1,11 @@
-/* stylesheet */
+/* stylesheet*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
 * { 
     box-sizing: border-box;
-    font-family: serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
     text-align: left;
@@ -37,6 +41,7 @@ header {
 }
 
 h1 {
+    font-family: 'Spartan', sans-serif;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -141,6 +146,10 @@ fieldset > input, select {
      border: none;
  }
 
+ .second-section {
+    background-color: rgb(241, 238, 253);
+ }
+
  legend {
      width: 99%;
  }
@@ -156,6 +165,7 @@ input:focus,
 textarea:focus,
 button:focus {
     border: 3px solid rgb(39, 55, 65);
+    transition: .5s ease-in-out;
 }
 
  @media only screen and (min-width: 768px) {
@@ -180,6 +190,10 @@ button:focus {
         width: 75%;
         padding: 10px;
         margin-bottom: 10px;;
+    }
+
+    #zip {
+        width: 25%;
     }
 
  }
