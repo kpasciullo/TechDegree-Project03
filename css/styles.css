@@ -93,6 +93,11 @@ fieldset > input, select {
     width: 50%;
 }
 
+#zip::placeholder,
+#topics::placeholder {
+    text-align: left;
+}
+
 .newsletter-info::before {
     content: "";
     display: inline-block;
@@ -149,6 +154,8 @@ fieldset > input, select {
  .second-section {
     background-color: rgb(241, 238, 253);
  }
+ 
+ 
 
  legend {
      width: 99%;
